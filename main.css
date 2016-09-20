@@ -1,3 +1,37 @@
-h1 {
-	border: 1px;
+body {
+	font-family: "Open Sans", Tahoma, Arial, sans-serif;
+}
+nav {
+	height: 80px;
+	background: linear-gradient(#074501, #E7F2E6);
+	color: #D9C159;
+	font-size: 125%;
+}
+nav ul {
+	padding: 20px;
+}
+nav li {
+	display: inline;
+	padding: 5px;
+	border: 1px solid #D9C159;
+}
+.nav-title {
+	float: left;
+	padding: 0 20px;
+}
+.nav-profile {
+	float: right;
+	bottom: 20px;
+}
+main {
+	background: linear-gradient(#E7F2E6, #F5FAF5);
+}
+footer {
+	height: 40px;
+	background: #063801;
+	color: #D9C159;
+	text-align: center;
+}
+footer p {
+	padding: 11px 0;
 }
