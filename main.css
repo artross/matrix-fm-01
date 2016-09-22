@@ -2,29 +2,55 @@ body {
 	font-family: "Open Sans", Tahoma, Arial, sans-serif;
 }
 nav {
+	position: relative;
 	height: 80px;
-	background: linear-gradient(#074501, #E7F2E6);
+	background: linear-gradient(#074501, #0F8F03 50%, #074501);
 	color: #D9C159;
 	font-size: 125%;
+	border: 1px solid #063801;
 }
-nav ul {
-	padding: 20px;
-}
-nav li {
-	display: inline;
-	padding: 5px;
-	border: 1px solid #D9C159;
+.nav {
+	display: inline-block;
+	vertical-align: middle;
 }
 .nav-title {
-	float: left;
 	padding: 0 20px;
 }
+.nav-menu {
+	padding: 0 20px 0 80px;
+}
+.nav-menu-item {
+	padding: 20px;
+	text-align: center;
+}
+.nav-menu-item:hover, .nav-menu-item:focus {
+	font-weight: bold;
+	box-shadow: 0 0 3px 3px;
+	border-radius: 5px;
+}
+.nav-menu-item-free-teams {
+	width: 120px;
+}
+.nav-menu-item-news {
+	width: 60px;
+}
+.nav-menu-item-transfers {
+	width: 90px;
+}
+.nav-menu-item-statistics {
+	width: 90px;
+}
+.nav-menu-item-rules {
+	width: 60px;
+}
 .nav-profile {
-	float: right;
-	bottom: 20px;
+	position: fixed;
+	right: 20px;
+	top: 30px;
 }
 main {
-	background: linear-gradient(#E7F2E6, #F5FAF5);
+	background: linear-gradient(#DEF2DC, #F5FAF5);
+	padding: 80px;
 }
 footer {
 	height: 40px;
