@@ -7,11 +7,11 @@ a {
 }
 nav {
 	position: relative;
-	height: 80px;
+	height: 120px;
 	background: linear-gradient(#074501, #0F8F03 50%, #074501);
 	color: #D9C159;
 	font-size: 125%;
-	border: 1px solid #063801;
+	border-bottom: 2px solid #D9C159;
 }
 .nav {
 	display: inline-block;
@@ -19,6 +19,14 @@ nav {
 }
 .nav-title {
 	padding: 0 20px;
+	width: 150px;
+	text-align: center;
+}
+.nav-title img {
+	height: 70px;
+	width: auto;
+	padding: 15px 0 0 0;
+	opacity: 0.9;
 }
 .nav-menu {
 	padding: 0 20px 0 80px;
@@ -26,26 +34,26 @@ nav {
 .nav-menu-item {
 	padding: 20px;
 	text-align: center;
+	font-size: 130%;
 }
 .nav-menu-item:hover, .nav-menu-item:focus {
-	font-weight: bold;
 	box-shadow: 0 0 3px 3px;
 	border-radius: 5px;
 }
 .nav-menu-item-free-teams {
-	width: 120px;
+	width: 150px;
 }
 .nav-menu-item-news {
-	width: 60px;
+	width: 75px;
 }
 .nav-menu-item-transfers {
-	width: 90px;
+	width: 115px;
 }
 .nav-menu-item-statistics {
-	width: 90px;
+	width: 115px;
 }
 .nav-menu-item-rules {
-	width: 60px;
+	width: 75px;
 }
 .nav-profile {
 	position: fixed;
@@ -54,7 +62,57 @@ nav {
 }
 main {
 	background: linear-gradient(#DEF2DC, #F5FAF5);
-	padding: 80px;
+}
+h2, h3 {
+	color: #D9C159;
+	text-align: center;
+	background: linear-gradient(#074501, #0F8F03);
+	border-bottom: 1px solid #074501;
+}
+h2 {
+	font-size: 125%;
+	padding: 20px;
+}
+h3 {
+	font-size: 100%;
+	padding: 15px;
+}
+.inline-block {
+	display: inline-block;
+}
+.side {
+	border: 1px solid #074501;
+	border-radius: 3px;
+	vertical-align: top;
+	margin: 40px;
+}
+.padding-10 {
+	padding: 10px;
+}
+.left-side {
+	width: 450px;
+	margin-left:80px;
+}
+.right-side {
+	width: 980px;
+	padding-bottom: 40px;
+}
+.sub-side {
+	width: 424px;
+	margin: 40px 0 0 40px;
+}
+.left-side-club-logo {
+	width: 200px;
+	height: auto;
+	float: left;
+}
+.left-side .inline-block {
+	vertical-align: top;
+	width: 200px;
+}
+.left-side p {
+	color: #074501;
+	font-size: 125%;
 }
 footer {
 	height: 40px;
